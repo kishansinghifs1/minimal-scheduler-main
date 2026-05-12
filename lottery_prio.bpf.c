@@ -64,7 +64,7 @@ struct sched_ext_ops sched_ops = {
     .dispatch  = (void *)sched_dispatch,
     .init      = (void *)sched_init,
     .flags     = SCX_OPS_ENQ_LAST | SCX_OPS_KEEP_BUILTIN_IDLE,
-    .name      = "lottery_prio_scheduler"
+    .name      = "custom_lottery_prio"
 };
 
 // License for the BPF program
